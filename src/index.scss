@@ -1,0 +1,24 @@
+@import '~element-ui/lib/theme-chalk/index.css';
+
+$--color-primary: #ffd200;
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+body, html{
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.el-message-box{
+    width: 60%;
+}
+.el-dialog__body{
+    padding: 0 20px;
+}
